@@ -39,8 +39,6 @@ stages:
           $(tag)
 
 -   stage: Deploy
-    displayName: Deploy stage
-    dependsOn: Deploy
     jobs:
     - job: Deploy
       displayName: Deploy
